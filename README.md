@@ -72,7 +72,7 @@ It leverages machine learning models (LSTM, Prophet, XGBoost) and statistical me
 │   ├── US_Holiday_Dates.csv
 ├── notebooks/
 │   ├── CrimeRates.ipynb         # Full crime forecasting & analysis
-│   ├── chicago-set2.ipynb        # Classification model (XGBoost) + holiday impact analysis
+│   ├── CrimeType.ipynb        # Classification model (XGBoost) + holiday impact analysis
 ├── outputs/
 │   ├── Forecast plots
 │   ├── Hotspot heatmaps
