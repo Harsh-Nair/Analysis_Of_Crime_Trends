@@ -1,79 +1,62 @@
 # Analysis_Of_Crime_Trends
 
-## 📄 Project Overview
-This project focuses on the analysis, forecasting, and understanding of crime patterns in the city of Chicago from 2001 to 2017.  
-It leverages machine learning models (LSTM, Prophet, XGBoost) and statistical methods to uncover insights related to:
+# 🚔 Chicago Crime Rate Analysis and Forecasting (2004-2021)
 
-- Crime volume trends over time
-- Crime hotspots and geospatial patterns
-- Impact of external events (holidays) on crime rates
-- Crime type prediction using classification models
-- Anomaly detection to identify unusual spikes in crime
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ---
 
-## 🔍 Objectives
-- **Time Series Forecasting:** Predict future crime volumes using LSTM and Prophet models.
-- **Geospatial Analysis:** Identify and visualize crime hotspots using KDE.
-- **Crime Type Prediction:** Build a classifier (XGBoost) to predict the type of crime based on features like location, district, and FBI code.
-- **Anomaly Detection:** Detect abnormal crime spikes in different districts.
-- **Holiday Impact Analysis:** Evaluate if crime rates differ significantly between holidays and non-holidays using statistical tests.
+## 📸 Project Demo
+
+<div align="center">
+  <img src="https://placehold.co/600x400?text=Forecast+Plot" alt="Forecasting Plot" />
+  <img src="https://placehold.co/600x400?text=Crime+Hotspot+Map" alt="Hotspot Map" />
+  <img src="https://placehold.co/600x400?text=Anomaly+Detection" alt="Anomaly Detection" />
+</div>
 
 ---
 
-## 🛠️ Technologies Used
-- **Python** (Pandas, NumPy, Seaborn, Scikit-learn, Matplotlib)
-- **Machine Learning:** XGBoost, SMOTE Oversampling
-- **Deep Learning:** LSTM (TensorFlow/Keras)
-- **Time Series Modeling:** Facebook Prophet
-- **Statistical Analysis:** T-Test (Scipy)
-- **Geospatial Analysis:** Kernel Density Estimation (KDE)
-- **Anomaly Detection:** STL Decomposition (Seasonal-Trend decomposition)
+## 🧠 About the Project
+
+This project explores, forecasts, and analyzes the crime trends in Chicago between 2004 and 2021 using:
+
+- **Time Series Modeling (LSTM, Prophet)**
+- **Crime Type Classification (XGBoost)**
+- **Anomaly Detection (STL Decomposition)**
+- **Holiday Impact Analysis (Statistical Testing)**
+
+The goal is to uncover hidden patterns, predict future crime volumes, and identify anomalies or external influences on criminal activity.
 
 ---
 
-## 📊 Key Results
+## 🛠️ Tech Stack
 
-| Analysis Area             | Method/Model              | Key Insight |
-|:---------------------------|:---------------------------|:------------|
-| Crime Volume Forecasting    | LSTM, Prophet               | Seasonal trends captured; future crime rates forecasted |
-| Crime Hotspots              | KDE (Geospatial Heatmaps)   | Persistent hotspots in central districts |
-| Crime Type Prediction       | XGBoost Classifier          | Achieved high accuracy (~86%) after balancing |
-| Anomaly Detection           | STL Decomposition           | Detected abnormal spikes during holidays and specific events |
-| Holiday Impact on Crimes    | T-Test                      | ✅ Statistically significant lower crime rates on holidays |
+**Languages & Libraries:**
 
----
-
-## 📈 Forecasting
-- **LSTM and Prophet** models were trained on daily crime counts.
-- **Evaluation Metrics:**
-  - **RMSE:** (Root Mean Squared Error) measured prediction accuracy.
-  - **MAE:** (Mean Absolute Error) provided another performance indicator.
-- **Conclusion:**  
-  Prophet provided slightly better RMSE for short-term forecasts, while LSTM was more flexible for seasonality.
+- 🐍 Python (Pandas, NumPy)
+- 📊 Visualization (Matplotlib, Seaborn)
+- 🤖 Machine Learning (XGBoost, Scikit-learn, SMOTE)
+- 🔮 Deep Learning (TensorFlow, LSTM)
+- 📈 Time Series Forecasting (Facebook Prophet)
+- 🧪 Statistical Analysis (SciPy T-Test)
+- 🌍 Geospatial Analysis (Kernel Density Estimation)
 
 ---
 
-## 📉 Anomaly Detection
-- Applied **STL Decomposition** to extract trend, seasonality, and residuals from the time series.
-- Detected **spikes** that matched:
-  - Major public events
-  - Holidays
-  - Weather extremes
-
----
-
-## 📑 Files and Structure
+## 📂 Project Structure
 
 ```bash
-├── README.md
-├── datasets/
-│   ├── Chicago_Crimes_Cleaned.csv
-│   ├── US_Holiday_Dates.csv
-├── notebooks/
-│   ├── CrimeRates.ipynb         # Full crime forecasting & analysis
-│   ├── CrimeType.ipynb        # Classification model (XGBoost) + holiday impact analysis
-├── outputs/
-│   ├── Forecast plots
-│   ├── Hotspot heatmaps
-│   ├── Anomaly detection graphs
+📦 Chicago-Crime-Analysis
+ ┣ 📜 README.md
+ ┣ 📁 datasets/
+ ┃ ┣ 📄 Chicago_Crimes_Cleaned.csv
+ ┃ ┣ 📄 US_Holiday_Dates.csv
+ ┣ 📁 notebooks/
+ ┃ ┣ 📓 CrimeRates.ipynb (Forecasting + Analysis)
+ ┃ ┣ 📓 chicago-set2.ipynb (Classification + Holidays Analysis)
+ ┣ 📁 outputs/
+ ┃ ┣ 📈 Forecast Plots
+ ┃ ┣ 🗺️ Hotspot Heatmaps
+ ┃ ┣ 🚨 Anomaly Detection Graphs
