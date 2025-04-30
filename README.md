@@ -27,23 +27,7 @@ This project analyzes crime data from Chicago between 2004 and 2021. It involves
 
 ---
 
-## 📂 Project Structure
 
-```bash
-📦 Chicago-Crime-Analysis
- ┣ 📜 README.md
- ┣ 📁 datasets/
- ┃ ┣ 📄 Chicago_Crimes_Cleaned.csv
- ┃ ┣ 📄 US_Holiday_Dates.csv
- ┣ 📁 notebooks/
- ┃ ┣ 📓 CrimeRates.ipynb (Forecasting + Analysis)
- ┃ ┣ 📓 chicago-set2.ipynb (Classification + Holidays Analysis)
- ┣ 📁 outputs/
- ┃ ┣ 📈 Forecast Plots
- ┃ ┣ 🗺️ Hotspot Heatmaps
- ┃ ┣ 🚨 Anomaly Detection Graphs
-
-```
 ---
 
 ## 📚 Datasets Used
