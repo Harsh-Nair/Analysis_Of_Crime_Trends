@@ -104,4 +104,4 @@ This project analyzes crime data from Chicago between 2004 and 2021. It involves
 
 ---
 
-> _"Data analysis is the art of making sense out of chaos."_
+> _"Data analysis is the art of making sense out of chaos.Do enjoy the process"_
