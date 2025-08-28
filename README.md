@@ -27,9 +27,6 @@ This project analyzes crime data from Chicago between 2004 and 2021. It involves
 
 ---
 
-
----
-
 ## 📚 Datasets Used
 
 - **Crime Data:** Chicago Crimes Cleaned (2001-2017)
@@ -97,11 +94,14 @@ This project analyzes crime data from Chicago between 2004 and 2021. It involves
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Authors
 
-- **Ananya Tiwari** 
-  [Linkedln](https://linkedin.com/in/ananya-tiw)
+- **Harsh Nair**  
+  [LinkedIn](https://www.linkedin.com/in/harsh-nair-601992258)
+
+- **Ananya Tiwari**  
+  [LinkedIn](https://linkedin.com/in/ananya-tiw)
 
 ---
 
-> _"Data analysis is the art of making sense out of chaos.Do enjoy the process"_
+> _"Data analysis is the art of making sense out of chaos. Do enjoy the process"_
